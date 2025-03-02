@@ -249,7 +249,7 @@ function displaySkills(skills) {
                                 x="${barWidth/2}"
                                 y="-${barHeight + 20}"
                                 text-anchor="middle"
-                            >${skill.amount}</text>
+                            >${skill.amount}%</text>
                         </g>
                     `;
                 }).join('')}
